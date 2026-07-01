@@ -1,4 +1,4 @@
-# 大疆 4G 模块运行 VoHive 教程：Mac 改 QMI 模式 + Windows Hyper-V Ubuntu 部署
+# Mac 改大疆4G模块 + Windows Hyper-V 直通 + Ubuntu 部署 VoHive 教程：
 
 这是一份从零开始的教程：把一台全新的大疆 4G 模块修改成 Linux / VoHive 可识别的 `2c7c:0125`，然后把它插在 Windows 小主机上，通过 Hyper-V Ubuntu 运行 VoHive。
 
