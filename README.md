@@ -1,12 +1,10 @@
 # Mac 改大疆4G模块 + Windows Hyper-V 直通 + Ubuntu 部署 VoHive 教程：
 
-这是一份从零开始的教程：把一台全新的大疆 4G 模块修改成 Linux / VoHive 可识别的 `2c7c:0125`，然后把它插在 Windows 小主机上，通过 Hyper-V Ubuntu 运行 VoHive。
+这是一份从零开始的教程：把一台全新的大疆 4G 模块修改成 Linux / VoHive 可识别的 `2c7c:0125`，然后把它插在 Windows 主机上，通过 Hyper-V Ubuntu 运行 VoHive。
 
 本文适合你想要这样的最终效果：
 
-- 大疆 4G 模块插在 Windows 主机 USB 口；
-- Hyper-V 里的 Ubuntu 能识别到模块；
-- Ubuntu 中出现 `/dev/cdc-wdm0`、`/dev/ttyUSB*`、`wwan0`；
+- Hyper-V 里的 Ubuntu 能识别到大疆4G模块；
 - VoHive 可以管理设备、收发短信、使用 VoWiFi；
 - 插拔设备后可以自动恢复。
 
@@ -57,7 +55,7 @@ flowchart LR
 
 - 大疆 4G 模块
 - 一台 Mac，用于第一次修改模块 USB 模式
-- 一台 Windows 小主机，用于长期插模块
+- 一台 Windows 主机，用于长期插模块
 - Windows 上的 Hyper-V Ubuntu 虚拟机
 
 ### 软件
